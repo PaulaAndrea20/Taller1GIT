@@ -133,4 +133,39 @@ function myFunction_set(val) {
   
 }
 
+function celsiusToFahrenheit(){
+    grados = (result.value * 9/5) + 32;
+    if (isNaN(grados)){
+        result.value = 'Solo numeros'
+        return
+    }
+    result.value = grados + '°F'
+}
 
+function pascalToBar(){
+    bar = (result.value/100000);
+    if (isNaN(bar)){
+        result.value = 'Solo numeros'
+        return
+    }
+    result.value = bar + 'bar'
+
+}
+
+function kilogramToGram(){
+    gramos = (result.value * 1000);
+    if (isNaN(gramos)){
+        result.value = 'Solo numeros'
+        return
+    }
+    result.value = gramos + ' gr'
+}
+
+function meterToCentimeter(){
+    metros =(result.value * 100);
+    if (isNaN(metros)){
+        result.value = 'Solo numeros'
+        return
+    }
+    result.value = metros + ' cm'
+}
