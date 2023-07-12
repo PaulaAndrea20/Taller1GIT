@@ -148,7 +148,7 @@ function pascalToBar(){
         result.value = 'Solo numeros'
         return
     }
-    result.value = bar + 'bar'
+    result.value = bar + ' bar'
 
 }
 
